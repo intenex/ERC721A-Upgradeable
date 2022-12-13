@@ -217,7 +217,7 @@ interface IERC721AUpgradeable {
      *
      * Emits an {Approval} event.
      */
-    function approve(address to, uint256 tokenId) external payable;
+    function approve(address to, uint256 tokenId) external;
 
     /**
      * @dev Approve or remove `operator` as an operator for the caller.

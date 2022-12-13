@@ -383,7 +383,7 @@ contract ERC721AUpgradeable is ERC721A__Initializable, IERC721AUpgradeable {
      *
      * - The caller must own the token or be an approved operator.
      */
-    function approve(address to, uint256 tokenId) public payable virtual override {
+    function approve(address to, uint256 tokenId) public virtual override {
         _approve(to, tokenId, true);
     }
 
